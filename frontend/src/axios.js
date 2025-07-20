@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:5000', 
+  baseURL: 'https://mystore-ecommerce-coj7.onrender.com', 
   withCredentials: true,
 });
 
