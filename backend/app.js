@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 app.use(express.json());
 
-const allowedOrigins = ['http://localhost:3000'];
+const allowedOrigins = ['https://mystore-ecommerce-frontend.onrender.com'];
 
 app.use(cors({
   origin: function (origin, callback) {
